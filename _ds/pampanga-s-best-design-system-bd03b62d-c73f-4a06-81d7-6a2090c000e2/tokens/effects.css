@@ -1,0 +1,26 @@
+:root{
+/* Radii — small, restrained. Cards 6px, buttons 4px, inputs 4px, pills for tags, circles for icon badges */
+--radius-xs:3px;
+--radius-sm:4px;
+--radius-md:6px;
+--radius-lg:12px;
+--radius-pill:999px;
+/* Shadows — soft, low, warm-neutral */
+--shadow-card:0 1px 2px rgba(29,31,26,.06),0 6px 18px rgba(29,31,26,.08);
+--shadow-card-hover:0 2px 4px rgba(29,31,26,.08),0 14px 32px rgba(29,31,26,.14);
+--shadow-float:0 10px 30px rgba(5,46,24,.22);
+--shadow-nav:0 1px 0 rgba(255,255,255,.08);
+/* Borders */
+--border-card:1px solid var(--border-subtle);
+--border-outline-btn:1.5px solid var(--pb-green-900);
+/* Motion */
+--ease-out:cubic-bezier(.2,.7,.2,1); /* @kind other */
+--duration-fast:140ms; /* @kind other */
+--duration-base:220ms; /* @kind other */
+--duration-slow:420ms; /* @kind other */
+/* Overlays */
+--overlay-protect:linear-gradient(180deg,rgba(5,46,24,0) 40%,rgba(5,46,24,.72) 100%); /* @kind other */
+--overlay-green-tint:linear-gradient(90deg,rgba(11,74,38,.92),rgba(11,74,38,.55)); /* @kind other */
+/* Focus */
+--focus-ring:0 0 0 3px rgba(61,138,79,.35);
+}

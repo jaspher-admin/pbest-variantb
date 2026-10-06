@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Careers | Pampanga’s Best</title>
+<meta name="description" content="Join the Pampanga’s Best team in San Fernando, Pampanga and beyond.">
+<link rel="canonical" href="https://www.pampangasbest.com/careers">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Pampanga’s Best">
+<meta property="og:title" content="Careers | Pampanga’s Best">
+<meta property="og:description" content="Join the Pampanga’s Best team in San Fernando, Pampanga and beyond.">
+<meta property="og:url" content="https://www.pampangasbest.com/careers">
+<meta property="og:image" content="https://www.pampangasbest.com/wp-content/uploads/2015/10/Pampangas-Best.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/live/logo-official.png">
+<script>window.PB_PAGE="Careers";window.PB_STATIC_PAGES={"Home":"index.dc.html","Our Story":"our-story.dc.html","Products":"products.dc.html","Recipes":"recipes.dc.html","Where to Buy":"where-to-buy.dc.html","Business Opportunities":"business-opportunities.dc.html","News & Stories":"news.dc.html","Contact":"contact.dc.html","Careers":"careers.dc.html"};</script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="_ds/pampanga-s-best-design-system-bd03b62d-c73f-4a06-81d7-6a2090c000e2/tokens/fonts.css">
+  <link rel="stylesheet" href="_ds/pampanga-s-best-design-system-bd03b62d-c73f-4a06-81d7-6a2090c000e2/tokens/colors.css">
+  <link rel="stylesheet" href="_ds/pampanga-s-best-design-system-bd03b62d-c73f-4a06-81d7-6a2090c000e2/tokens/typography.css">
+  <link rel="stylesheet" href="_ds/pampanga-s-best-design-system-bd03b62d-c73f-4a06-81d7-6a2090c000e2/tokens/spacing.css">
+  <link rel="stylesheet" href="_ds/pampanga-s-best-design-system-bd03b62d-c73f-4a06-81d7-6a2090c000e2/tokens/effects.css">
+  <link rel="stylesheet" href="_ds/pampanga-s-best-design-system-bd03b62d-c73f-4a06-81d7-6a2090c000e2/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+  <script src="_ds/pampanga-s-best-design-system-bd03b62d-c73f-4a06-81d7-6a2090c000e2/_ds_bundle.js"></script>
+  <script src="site-data.js"></script>
+  <style>
+    :root{--font-serif-display:'Montserrat',sans-serif;--font-sans:'Open Sans',sans-serif}
+    html,body{margin:0;background:#fff;font:var(--type-body);color:var(--text-body);-webkit-font-smoothing:antialiased}
+    *{box-sizing:border-box}
+    a{color:var(--pb-green-900)}a:hover{color:var(--pb-gold-500)}
+    input,button,textarea,select{font-family:var(--font-sans)}
+    @keyframes pbFloat{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-16px) rotate(-2deg)}}
+    @keyframes pbPop{0%{opacity:0;transform:translateY(40px) scale(.9) rotate(-4deg)}100%{opacity:1;transform:translateY(0) scale(1) rotate(-4deg)}}
+    @keyframes pbWord{0%{opacity:0;transform:translateY(40px)}100%{opacity:1;transform:none}}
+  </style>
+</helmet>
+<div ref="{{ rootRef }}" data-screen-label="{{ page }}" style="min-height:100vh; display:flex; flex-direction:column; background:#fff; color:var(--text-body);">
+
+  <div style="position:sticky; top:0; z-index:30; background:var(--pb-green-900); box-shadow:0 1px 0 rgba(255,255,255,.08);">
+    <div style="max-width:1280px; margin:0 auto; height:76px; padding:0 clamp(16px,3vw,32px); display:flex; align-items:center; justify-content:space-between; gap:16px;">
+      <img src="assets/live/logo-official.png" alt="Pampanga’s Best" onClick="{{ goHome }}" style="height:46px; width:auto; cursor:pointer; display:block;">
+      <sc-if value="{{ isDesktop }}" hint-placeholder-val="{{ true }}">
+        <div style="display:flex; align-items:center; gap:4px; background:rgba(255,255,255,.08); border-radius:999px; padding:4px;">
+          <sc-for list="{{ navItems }}" as="n" hint-placeholder-count="8">
+            <button onClick="{{ n.go }}" style="border:0; border-radius:999px; padding:9px 12px; background:{{ n.bg }}; color:{{ n.color }}; font:600 12px/1 var(--font-sans); letter-spacing:.04em; text-transform:uppercase; cursor:pointer; white-space:nowrap; transition:background var(--duration-base) var(--ease-out), color var(--duration-base) var(--ease-out);">{{ n.label }}</button>
+          </sc-for>
+        </div>
+        <button onClick="{{ shop }}" style="border:0; border-radius:999px; padding:12px 20px; background:var(--pb-gold-500); color:var(--pb-green-950); font:700 12px/1 var(--font-sans); letter-spacing:.08em; text-transform:uppercase; cursor:pointer; white-space:nowrap;" style-hover="background:#fff;">Shop now</button>
+      </sc-if>
+      <sc-if value="{{ isMobile }}" hint-placeholder-val="{{ false }}">
+        <div style="display:flex; gap:6px;">
+          <x-import component-from-global-scope="PampangaSBestDesignSystem_bd03b6.IconButton" icon="shopping-cart" variant="ghost" label="Shop online" on-click="{{ shop }}" hint-size="40px,40px"></x-import>
+          <x-import component-from-global-scope="PampangaSBestDesignSystem_bd03b6.IconButton" icon="{{ menuIcon }}" variant="ghost" label="Menu" on-click="{{ toggleMenu }}" hint-size="40px,40px"></x-import>
+        </div>
+      </sc-if>
+    </div>
+    <sc-if value="{{ menuOpen }}" hint-placeholder-val="{{ false }}">
+      <div style="background:var(--pb-green-950); display:flex; flex-direction:column; padding:8px 20px 20px;">
+        <sc-for list="{{ menuItems }}" as="m" hint-placeholder-count="0">
+          <button onClick="{{ m.go }}" style="text-align:left; background:transparent; border:0; border-bottom:1px solid rgba(255,255,255,.1); padding:16px 0; font:600 13px/1 var(--font-sans); letter-spacing:.06em; text-transform:uppercase; color:{{ m.color }}; cursor:pointer;">{{ m.label }}</button>
+        </sc-for>
+      </div>
+    </sc-if>
+  </div>
+
+  <!-- ================= CAREERS ================= -->
+  <sc-if value="{{ isCareers }}" hint-placeholder-val="{{ true }}">
+    <section style="display:flex; flex-wrap:wrap; background:var(--pb-green-900);">
+      <div style="flex:1 1 360px; padding:clamp(44px,6vw,80px) clamp(16px,3vw,32px); display:flex; flex-direction:column; justify-content:center; gap:16px;">
+        <div style="font:700 11px/1 var(--font-sans); letter-spacing:.14em; text-transform:uppercase; color:var(--pb-gold-500);">Careers</div>
+        <h1 style="margin:0; font:800 clamp(36px,5.2vw,71px)/1.02 var(--font-serif-display); letter-spacing:-.01em; text-transform:uppercase;">Be part of us</h1>
+        <p style="margin:0; font:var(--type-body); font-size:17px; color:rgba(255,255,255,.85); max-width:480px;">We are hiring passionate individuals who strive to uplift others and bring out the best in every person they serve.</p>
+        <div><x-import component-from-global-scope="PampangaSBestDesignSystem_bd03b6.Button" variant="inverse" icon-right="arrow-right" on-click="{{ careersOpen }}" hint-size="auto,40px">See open positions</x-import></div>
+      </div>
+      <div style="flex:1 1 320px; min-height:300px; background:url(assets/imagery/factory-team.png) center/cover;"></div>
+    </section>
+    <section style="background:var(--pb-cream-100); color:var(--text-body);">
+      <div style="max-width:1280px; margin:0 auto; padding:clamp(44px,5vw,72px) clamp(16px,3vw,32px); display:flex; flex-direction:column; gap:16px;">
+        <h2 style="margin:0 0 8px; font:800 clamp(25px,3.0vw,36px)/1.02 var(--font-serif-display); letter-spacing:-.01em; text-transform:uppercase; color:var(--pb-green-900);">Open positions</h2>
+        <sc-for list="{{ jobs }}" as="j" hint-placeholder-count="3">
+          <div data-reveal="1" style="display:flex; flex-wrap:wrap; align-items:center; gap:16px; padding:20px 24px; background:#fff; border-radius:12px; opacity:0; transform:translateY(22px); transition:opacity .7s var(--ease-out), transform .7s var(--ease-out);">
+            <div style="flex:1 1 240px; display:flex; flex-direction:column; gap:4px;"><div style="font:700 20px/1.2 var(--font-serif-display); color:var(--pb-ink-900);">{{ j.title }}</div><div style="font:var(--type-body-sm); color:var(--text-muted);">{{ j.meta }}</div></div>
+            <x-import component-from-global-scope="PampangaSBestDesignSystem_bd03b6.Button" size="sm" icon-right="arrow-right" on-click="{{ j.go }}" hint-size="auto,32px">Apply</x-import>
+          </div>
+        </sc-for>
+        <p style="margin:8px 0 0; font:var(--type-body-sm); color:var(--text-muted);">Roles are placeholders until the final list is supplied. Applications open on the Pampanga’s Best recruitment portal.</p>
+      </div>
+    </section>
+  </sc-if>
+
+  <!-- ================= FOOTER ================= -->
+  <footer style="margin-top:auto; background:var(--pb-green-950); color:#fff; border-top:1px solid rgba(255,255,255,.08);">
+    <div style="max-width:1280px; margin:0 auto; padding:clamp(40px,5vw,64px) clamp(16px,3vw,32px) 24px; display:flex; flex-direction:column; gap:36px;">
+      <div style="display:flex; flex-wrap:wrap; gap:36px 48px; justify-content:space-between;">
+        <div style="flex:1 1 260px; display:flex; flex-direction:column; gap:16px; align-items:flex-start;">
+          <img src="assets/live/logo-official.png" alt="Pampanga’s Best" style="height:52px; width:auto;">
+          <div style="font:800 clamp(20px,2.5vw,27px)/1.05 var(--font-serif-display); letter-spacing:-.01em; text-transform:uppercase; color:#fff;">Always the best from Pampanga’s Best</div>
+          <img src="https://www.pampangasbest.com/wp-content/uploads/2015/10/AAA-250.png" alt="NMIS AAA accredited" style="height:56px; width:auto;">
+        </div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px 32px; align-content:start;">
+          <sc-for list="{{ menuItems }}" as="m" hint-placeholder-count="9"><button onClick="{{ m.go }}" style="text-align:left; background:transparent; border:0; padding:6px 0; font:600 12px/1 var(--font-sans); letter-spacing:.06em; text-transform:uppercase; color:rgba(255,255,255,.8); cursor:pointer;" style-hover="color:var(--pb-gold-500);">{{ m.label }}</button></sc-for>
+          <button onClick="{{ shop }}" style="text-align:left; background:transparent; border:0; padding:6px 0; font:600 12px/1 var(--font-sans); letter-spacing:.06em; text-transform:uppercase; color:var(--pb-gold-500); cursor:pointer;">Shop now ↗</button>
+        </div>
+        <div style="flex:0 1 260px; display:flex; flex-direction:column; gap:8px; font:var(--type-body-sm); color:rgba(255,255,255,.8);">
+          <div style="font:700 11px/1 var(--font-sans); letter-spacing:.12em; text-transform:uppercase; color:#fff; margin-bottom:4px;">Customer Relations</div>
+          <span>Monday to Saturday, 8AM–8PM</span><span>Smart (0919) 080-3815</span><span>Globe (0917) 815-2544</span><span>marketing@pampangasbest.com</span>
+          <div style="display:flex; gap:10px; margin-top:8px;">
+            <a href="https://www.facebook.com/PampangasBestInc/" target="_blank" style="width:36px; height:36px; border-radius:50%; border:1px solid rgba(255,255,255,.3); display:flex; align-items:center; justify-content:center; color:#fff;"><x-import component-from-global-scope="PampangaSBestDesignSystem_bd03b6.Icon" name="facebook" size="{{ 16 }}" hint-size="16px,16px"></x-import></a>
+            <a href="https://www.instagram.com/pampangasbestinc/" target="_blank" style="width:36px; height:36px; border-radius:50%; border:1px solid rgba(255,255,255,.3); display:flex; align-items:center; justify-content:center; color:#fff;"><x-import component-from-global-scope="PampangaSBestDesignSystem_bd03b6.Icon" name="instagram" size="{{ 16 }}" hint-size="16px,16px"></x-import></a>
+            <a href="https://www.youtube.com/channel/UCkx8OO5Xm_e2aPta23MrAsg" target="_blank" style="width:36px; height:36px; border-radius:50%; border:1px solid rgba(255,255,255,.3); display:flex; align-items:center; justify-content:center; color:#fff;"><x-import component-from-global-scope="PampangaSBestDesignSystem_bd03b6.Icon" name="youtube" size="{{ 16 }}" hint-size="16px,16px"></x-import></a>
+          </div>
+        </div>
+      </div>
+      <div style="padding-top:16px; border-top:1px solid rgba(255,255,255,.1); display:flex; flex-wrap:wrap; justify-content:space-between; gap:8px; font:500 11px/1.4 var(--font-sans); color:rgba(255,255,255,.55);"><span>© 2012 – 2026 Pampanga’s Best, Inc. All Rights Reserved.</span><span>Terms of Use · Privacy Policy</span></div>
+    </div>
+  </footer>
+  <sc-if value="{{ isMobile }}" hint-placeholder-val="{{ false }}">
+    <div style="height:72px;"></div>
+    <div style="position:fixed; left:0; right:0; bottom:0; z-index:40; display:flex; gap:10px; padding:10px 16px calc(10px + env(safe-area-inset-bottom)); background:#fff; border-top:1px solid var(--border-subtle); box-shadow:0 -6px 20px rgba(0,0,0,.08);">
+      <a href="tel:+639190803815" style="flex:1; display:flex; align-items:center; justify-content:center; height:44px; border:1.5px solid var(--pb-green-900); border-radius:4px; color:var(--pb-green-900); font:700 12px/1 var(--font-sans); letter-spacing:.08em; text-transform:uppercase; text-decoration:none;">Call us</a>
+      <button onClick="{{ shop }}" style="flex:1.4; height:44px; border:0; border-radius:4px; background:var(--pb-green-900); color:#fff; font:700 12px/1 var(--font-sans); letter-spacing:.08em; text-transform:uppercase; cursor:pointer;">Shop online</button>
+    </div>
+  </sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;autoplay&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Motion&quot;},&quot;spotlightSpeed&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:4.6,&quot;min&quot;:2,&quot;max&quot;:10,&quot;step&quot;:0.2,&quot;unit&quot;:&quot;s&quot;,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Motion&quot;},&quot;revealOnScroll&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Motion&quot;}}">
+const T = { pillOnBg: 'var(--pb-green-900)', pillOnFg: '#fff', pillOffBg: 'transparent', pillOffFg: 'var(--pb-green-900)', pillBorder: 'var(--pb-green-900)', navOn: 'var(--pb-green-950)', navOff: '#fff', navOnBg: '#fff', dotOn: 'var(--pb-gold-500)', dotOff: 'rgba(255,255,255,.35)', spotRed: 'var(--pb-red-600)', spotGreen: 'var(--pb-green-900)', spotDotOn: '#fff', spotDotOff: 'rgba(255,255,255,.4)', typeOnBg: 'var(--pb-green-900)', typeOnFg: '#fff', typeOffFg: 'var(--pb-green-900)', typeBorder: 'var(--pb-green-900)', pinOn: 'var(--pb-gold-500)', pinOff: 'var(--pb-red-600)', menuOn: 'var(--pb-gold-500)', menuOff: '#fff' };
+class Component extends DCLogic {
+  state = window.PB_SITE.initialState();
+  rootRef = React.createRef();
+  mapRef = React.createRef();
+  componentDidMount() { window.PB_SITE.mount(this); }
+  componentDidUpdate() { window.PB_SITE.update(this); }
+  componentWillUnmount() { window.PB_SITE.unmount(this); }
+  renderVals() { const v = window.PB_SITE.renderVals(this, T, React);
+    v.navItems = v.navItems.filter(n => n.label !== 'Home').map(n => ({ ...n, label: ({ 'Business Opportunities': 'Business', 'News & Stories': 'News' })[n.label] || n.label })); v.advantages = [
+      { n: '01', title: 'Una at Original', body: 'The first and original tocino maker in the world, made in San Fernando, Pampanga since 1967.' },
+      { n: '02', title: 'NMIS “AAA” accredited', body: 'Our plant holds the highest accreditation category from the National Meat Inspection Service.' },
+      { n: '03', title: 'Home Delivery Express', body: 'Orders delivered frozen to your door within 24 to 48 hours across Metro Manila.' },
+      { n: '04', title: 'Home-Negosyo partner', body: 'Factory price and an automatic 10% discount from a ₱2,000 minimum order.' },
+    ];
+    v.careersOpen = () => window.open(window.PB_SITE.D.CAREERS_URL, '_blank'); return v; }
+}
+</script>
+</body>
+</html>

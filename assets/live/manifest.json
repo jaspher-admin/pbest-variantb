@@ -1,0 +1,785 @@
+{
+ "brand": {
+  "logo": "assets/live/logo-official.png",
+  "homeNegosyo": "assets/live/home-negosyo.jpg",
+  "homeNegosyoFb": "assets/live/home-negosyo-fb.jpg",
+  "storeOg": "assets/live/store-og.jpg"
+ },
+ "products": [
+  {
+   "slug": "original-tocino",
+   "name": "Original Pork Tocino",
+   "category": "Tocino",
+   "price": "From ₱63.06",
+   "blurb": "The product which made Pampanga’s Best known not just in Pampanga but all over the world. The first and original.",
+   "image": "assets/live/products/original-tocino.jpg",
+   "url": "https://pampangasbest.store/products/original-tocino"
+  },
+  {
+   "slug": "chicken-tocino",
+   "name": "Boneless Chicken Tocino",
+   "category": "Tocino",
+   "price": "From ₱68.61",
+   "blurb": "Another first from Pampanga’s Best! Same original Tocino recipe made from 100% premium chicken meat.",
+   "image": "assets/live/products/chicken-tocino.jpg",
+   "url": "https://pampangasbest.store/products/chicken-tocino"
+  },
+  {
+   "slug": "tenderlicious-tocino",
+   "name": "Tenderlicious Tocino",
+   "category": "Tocino",
+   "price": "From ₱53.61",
+   "blurb": "Exact as its name implies: tender and delicious.",
+   "image": "assets/live/products/tenderlicious-tocino.jpg",
+   "url": "https://pampangasbest.store/products/tenderlicious-tocino"
+  },
+  {
+   "slug": "fatless-pork-tocino",
+   "name": "Fatless Pork Tocino",
+   "category": "Tocino",
+   "price": "From ₱73.89",
+   "blurb": "The ORIGINAL Pampanga’s Best Tocino without the fat. All meat goodness!",
+   "image": "assets/live/products/fatless-pork-tocino.jpg",
+   "url": "https://pampangasbest.store/products/fatless-pork-tocino"
+  },
+  {
+   "slug": "carabeef-tocino",
+   "name": "Carabeef Tocino (Pindang Damulag)",
+   "category": "Tocino",
+   "price": "₱196.94",
+   "blurb": "A Kapampangan delicacy aged to attain a distinct sweet and sour flavor.",
+   "image": "assets/live/products/carabeef-tocino.jpg",
+   "url": "https://pampangasbest.store/products/carabeef-tocino"
+  },
+  {
+   "slug": "beef-tapa",
+   "name": "Beef Tapa",
+   "category": "Tapa",
+   "price": "From ₱93.61",
+   "blurb": "Choice cut beef aged to improve its tenderness, with a salty and peppery taste.",
+   "image": "assets/live/products/beef-tapa.jpg",
+   "url": "https://pampangasbest.store/products/beef-tapa"
+  },
+  {
+   "slug": "pork-tapa",
+   "name": "Pork Tapa",
+   "category": "Tapa",
+   "price": "From ₱64.44",
+   "blurb": "Choice pork cuts with a combination of sweet and peppery taste.",
+   "image": "assets/live/products/pork-tapa.jpg",
+   "url": "https://pampangasbest.store/products/pork-tapa"
+  },
+  {
+   "slug": "cabalen-longaniza",
+   "name": "Cabalen Longaniza",
+   "category": "Longaniza",
+   "price": "₱135.00",
+   "blurb": "The first ever longaniza processed by Pampanga’s Best.",
+   "image": "assets/live/products/cabalen-longaniza.jpg",
+   "url": "https://pampangasbest.store/products/cabalen-longaniza"
+  },
+  {
+   "slug": "skinless-longaniza",
+   "name": "Skinless Longaniza",
+   "category": "Longaniza",
+   "price": "From ₱66.94",
+   "blurb": "A breakfast favorite typically served with eggs and garlic rice.",
+   "image": "assets/live/products/skinless-longaniza.jpg",
+   "url": "https://pampangasbest.store/products/skinless-longaniza"
+  },
+  {
+   "slug": "native-longaniza",
+   "name": "Native Longaniza",
+   "category": "Longaniza",
+   "price": "From ₱60.28",
+   "blurb": "A short sausage with caramelized sugar, a dash of vinegar and garlic.",
+   "image": "assets/live/products/native-longaniza.jpg",
+   "url": "https://pampangasbest.store/products/native-longaniza"
+  },
+  {
+   "slug": "chicken-longaniza",
+   "name": "Chicken Longaniza",
+   "category": "Longaniza",
+   "price": "₱129.44",
+   "blurb": "The same longaniza taste using premium chicken meat.",
+   "image": "assets/live/products/chicken-longaniza.jpg",
+   "url": "https://pampangasbest.store/products/chicken-longaniza"
+  },
+  {
+   "slug": "smoked-beef-longaniza",
+   "name": "Smoked Beef Longaniza",
+   "category": "Longaniza",
+   "price": "₱46.67",
+   "blurb": "Grilled beef and special spices, a new variety for campers and backpackers.",
+   "image": "assets/live/products/smoked-beef-longaniza.jpg",
+   "url": "https://pampangasbest.store/products/smoked-beef-longaniza"
+  },
+  {
+   "slug": "hamonado-longaniza",
+   "name": "Hamonado Longaniza",
+   "category": "Longaniza",
+   "price": "₱116.39",
+   "blurb": "A sweet sausage that tastes like Christmas morning.",
+   "image": "assets/live/products/hamonado-longaniza.jpg",
+   "url": "https://pampangasbest.store/products/hamonado-longaniza"
+  },
+  {
+   "slug": "pampanga-longaniza",
+   "name": "Pampanga Longaniza",
+   "category": "Longaniza",
+   "price": "₱133.89",
+   "blurb": "A tastier, meatier version of the old favorite.",
+   "image": "assets/live/products/pampanga-longaniza.jpg",
+   "url": "https://pampangasbest.store/products/pampanga-longaniza"
+  },
+  {
+   "slug": "smoked-longaniza",
+   "name": "Smoked Longaniza",
+   "category": "Longaniza",
+   "price": "₱128.89",
+   "blurb": "Smokey beef flavor stuffed in natural casing.",
+   "image": "assets/live/products/smoked-longaniza.jpg",
+   "url": "https://pampangasbest.store/products/smoked-longaniza"
+  },
+  {
+   "slug": "premium-pork-longaniza",
+   "name": "Premium Pork Longaniza 500G",
+   "category": "Longaniza",
+   "price": "₱135.00",
+   "blurb": "Entirely different from any traditional Pampanga sweet longaniza.",
+   "image": "assets/live/products/premium-pork-longaniza.jpg",
+   "url": "https://pampangasbest.store/products/premium-pork-longaniza"
+  },
+  {
+   "slug": "chorizo-macao",
+   "name": "Chorizo Macao",
+   "category": "Longaniza",
+   "price": "₱57.78",
+   "blurb": "Pampanga’s Best’s version of the classic Spanish sausage.",
+   "image": "assets/live/products/chorizo-macao.jpg",
+   "url": "https://pampangasbest.store/products/chorizo-macao"
+  },
+  {
+   "slug": "tasty-meaty-hotdog",
+   "name": "Tasty Meaty Hotdog with Cheese",
+   "category": "Hotdogs",
+   "price": "From ₱53.89",
+   "blurb": "Plump and firm, perfect for feeding hungry kids, friends and office mates.",
+   "image": "assets/live/products/tasty-meaty-hotdog.jpg",
+   "url": "https://pampangasbest.store/products/tasty-meaty-hotdog"
+  },
+  {
+   "slug": "bestdog-hotdog",
+   "name": "Bestdog Hotdog",
+   "category": "Hotdogs",
+   "price": "From ₱104.44",
+   "blurb": "Made with premium meat and ingredients, the BEST hotdog you will ever taste.",
+   "image": "assets/live/products/bestdog-hotdog.jpg",
+   "url": "https://pampangasbest.store/products/bestdog-hotdog"
+  },
+  {
+   "slug": "cheezy-franks",
+   "name": "Cheezy Franks",
+   "category": "Hotdogs",
+   "price": "From ₱63.89",
+   "blurb": "A unique blend of meat and spices with creamy cheese bits.",
+   "image": "assets/live/products/cheezy-franks.jpg",
+   "url": "https://pampangasbest.store/products/cheezy-franks"
+  },
+  {
+   "slug": "bigatin-hotdog",
+   "name": "Bigatin Hotdog",
+   "category": "Hotdogs",
+   "price": "₱138.89",
+   "blurb": "Tunay na magaan sa bulsa pero BIGATIN sa SARAP.",
+   "image": "assets/live/products/bigatin-hotdog.jpg",
+   "url": "https://pampangasbest.store/products/bigatin-hotdog"
+  },
+  {
+   "slug": "boom-boom-hotdog",
+   "name": "Boom Boom Hotdog",
+   "category": "Hotdogs",
+   "price": "From ₱55.83",
+   "blurb": "Bite sized version of your classic hotdog. A birthday party favorite!",
+   "image": "assets/live/products/boom-boom-hotdog.jpg",
+   "url": "https://pampangasbest.store/products/boom-boom-hotdog"
+  },
+  {
+   "slug": "chicken-white-cheese-hotdog",
+   "name": "Chicken White with Cheese Hotdog",
+   "category": "Hotdogs",
+   "price": "From ₱63.33",
+   "blurb": "Creamy salty taste which many kids and adults crave for.",
+   "image": "assets/live/products/chicken-white-cheese-hotdog.jpg",
+   "url": "https://pampangasbest.store/products/chicken-white-cheese-hotdog"
+  },
+  {
+   "slug": "haba-haba-footlong",
+   "name": "Haba Haba Footlong",
+   "category": "Hotdogs",
+   "price": "₱96.11",
+   "blurb": "A foot long version of our Cheezy Franks.",
+   "image": "assets/live/products/haba-haba-footlong.jpg",
+   "url": "https://pampangasbest.store/products/haba-haba-footlong"
+  },
+  {
+   "slug": "sarap-hotdog",
+   "name": "Sarap Hotdog",
+   "category": "Hotdogs",
+   "price": "₱40.00",
+   "blurb": "Everyday hotdog, Best-Sarap.",
+   "image": "assets/live/products/sarap-hotdog.jpg",
+   "url": "https://pampangasbest.store/products/sarap-hotdog"
+  },
+  {
+   "slug": "bravo-hotdog",
+   "name": "Bravo Hotdog",
+   "category": "Hotdogs",
+   "price": "From ₱88.33",
+   "blurb": "Made for kids and kids-at-heart. Perfect for picnics and packed lunches.",
+   "image": "assets/live/products/bravo-hotdog.jpg",
+   "url": "https://pampangasbest.store/products/bravo-hotdog"
+  },
+  {
+   "slug": "bestdog-cheese",
+   "name": "Bestdog Hotdog with Cheese",
+   "category": "Hotdogs",
+   "price": "From ₱108.33",
+   "blurb": "Our BEST hotdog made even better!",
+   "image": "assets/live/products/bestdog-cheese.jpg",
+   "url": "https://pampangasbest.store/products/bestdog-cheese"
+  },
+  {
+   "slug": "chicken-franks",
+   "name": "Chicken Franks",
+   "category": "Hotdogs",
+   "price": "₱83.33",
+   "blurb": "Hot for hotdogs but worried about the fat? Made from chicken.",
+   "image": "assets/live/products/chicken-franks.jpg",
+   "url": "https://pampangasbest.store/products/chicken-franks"
+  },
+  {
+   "slug": "chomps",
+   "name": "Chomps Breakfast Sausage",
+   "category": "Sausages",
+   "price": "₱274.44",
+   "blurb": "Often featured by vloggers, this bite sized sausage has pleased many food critics.",
+   "image": "assets/live/products/chomps.jpg",
+   "url": "https://pampangasbest.store/products/chomps"
+  },
+  {
+   "slug": "chomps-chinese",
+   "name": "Chomps Chinese Style Breakfast Sausages",
+   "category": "Sausages",
+   "price": "₱296.67",
+   "blurb": "Chomps Chinese Style sweet breakfast sausages.",
+   "image": "assets/live/products/chomps-chinese.jpg",
+   "url": "https://pampangasbest.store/products/chomps-chinese"
+  },
+  {
+   "slug": "chicken-chomps",
+   "name": "Chicken Chomps Breakfast Sausage",
+   "category": "Sausages",
+   "price": "₱250.56",
+   "blurb": "Chicken Chomps Breakfast Sausage.",
+   "image": "assets/live/products/chicken-chomps.jpg",
+   "url": "https://pampangasbest.store/products/chicken-chomps"
+  },
+  {
+   "slug": "farmer-jun-hungarian",
+   "name": "Farmer Jun Hungarian Sausage w/ Cheese",
+   "category": "Sausages",
+   "price": "From ₱127.22",
+   "blurb": "Southern-style country sausages that burst with flavor.",
+   "image": "assets/live/products/farmer-jun-hungarian.jpg",
+   "url": "https://pampangasbest.store/products/farmer-jun-hungarian"
+  },
+  {
+   "slug": "hungarian-sausage",
+   "name": "Hungarian Sausage",
+   "category": "Sausages",
+   "price": "₱211.11",
+   "blurb": "That unique casing only Pampanga’s Best can offer.",
+   "image": "assets/live/products/hungarian-sausage.jpg",
+   "url": "https://pampangasbest.store/products/hungarian-sausage"
+  },
+  {
+   "slug": "farmer-jun-beef",
+   "name": "Farmer Jun Beef Premium American Breakfast Sausage",
+   "category": "Sausages",
+   "price": "₱174.72",
+   "blurb": "All American breakfast sausage craving, a hotel buffet mainstay.",
+   "image": "assets/live/products/farmer-jun-beef.jpg",
+   "url": "https://pampangasbest.store/products/farmer-jun-beef"
+  },
+  {
+   "slug": "farmer-jun-pork",
+   "name": "Farmer Jun Pork Premium American Breakfast Sausage",
+   "category": "Sausages",
+   "price": "₱173.06",
+   "blurb": "All American breakfast sausage craving, a hotel buffet mainstay.",
+   "image": "assets/live/products/farmer-jun-pork.jpg",
+   "url": "https://pampangasbest.store/products/farmer-jun-pork"
+  },
+  {
+   "slug": "sweet-ham",
+   "name": "Sweet Ham",
+   "category": "Hams",
+   "price": "₱54.17",
+   "blurb": "Quick, easy and hassle free way of enjoying a good tasting ham.",
+   "image": "assets/live/products/sweet-ham.jpg",
+   "url": "https://pampangasbest.store/products/sweet-ham"
+  },
+  {
+   "slug": "sweet-ham-premium",
+   "name": "Sweet Ham Premium",
+   "category": "Hams",
+   "price": "₱69.17",
+   "blurb": "The modern version of the age-old delight.",
+   "image": "assets/live/products/sweet-ham-premium.jpg",
+   "url": "https://pampangasbest.store/products/sweet-ham-premium"
+  },
+  {
+   "slug": "loaf-ham",
+   "name": "Loaf Ham",
+   "category": "Hams",
+   "price": "From ₱61.67",
+   "blurb": "Sliced, diced, or cut in any way you want.",
+   "image": "assets/live/products/loaf-ham.jpg",
+   "url": "https://pampangasbest.store/products/loaf-ham"
+  },
+  {
+   "slug": "ham-pinoy",
+   "name": "Ham Pinoy",
+   "category": "Christmas Hams",
+   "price": "₱263.16",
+   "blurb": "Filipino cuisine brings memories and people together.",
+   "image": "assets/live/products/ham-pinoy.jpg",
+   "url": "https://pampangasbest.store/products/ham-pinoy"
+  },
+  {
+   "slug": "pina-ham",
+   "name": "Piña Ham",
+   "category": "Christmas Hams",
+   "price": "₱397.66",
+   "blurb": "Glazed with sugar and all-natural pineapple juice.",
+   "image": "assets/live/products/pina-ham.jpg",
+   "url": "https://pampangasbest.store/products/pina-ham"
+  },
+  {
+   "slug": "hanep-chicken-ham",
+   "name": "Hanep! Chicken Ham",
+   "category": "Christmas Hams",
+   "price": "₱217.54",
+   "blurb": "Hanep! Chicken Ham.",
+   "image": "assets/live/products/hanep-chicken-ham.jpg",
+   "url": "https://pampangasbest.store/products/hanep-chicken-ham"
+  },
+  {
+   "slug": "chicken-ham-premium",
+   "name": "Chicken Ham Premium",
+   "category": "Christmas Hams",
+   "price": "₱380.12",
+   "blurb": "Chicken Ham Premium.",
+   "image": "assets/live/products/chicken-ham-premium.jpg",
+   "url": "https://pampangasbest.store/products/chicken-ham-premium"
+  },
+  {
+   "slug": "american-ham",
+   "name": "Old Fashioned American Ham",
+   "category": "Christmas Hams",
+   "price": "From ₱690.06",
+   "blurb": "All muscle meat delicately processed in sugar and brine, plus western spices.",
+   "image": "assets/live/products/american-ham.jpg",
+   "url": "https://pampangasbest.store/products/american-ham"
+  },
+  {
+   "slug": "american-ham-bilao",
+   "name": "Old Fashioned Sliced American Ham (Bilao)",
+   "category": "Christmas Hams",
+   "price": "From ₱818.71",
+   "blurb": "Sliced and designed for sharing.",
+   "image": "assets/live/products/american-ham-bilao.jpg",
+   "url": "https://pampangasbest.store/products/american-ham-bilao"
+  },
+  {
+   "slug": "leg-ham-boneless",
+   "name": "American Ham, Boneless Hind Leg",
+   "category": "Christmas Hams",
+   "price": "From ₱2,554.63",
+   "blurb": "A combination of the old Chinese leg ham and the tenderized American ham.",
+   "image": "assets/live/products/leg-ham-boneless.jpg",
+   "url": "https://pampangasbest.store/products/leg-ham-boneless"
+  },
+  {
+   "slug": "leg-ham-bone-in",
+   "name": "American Ham, Bone-in Hind Leg",
+   "category": "Christmas Hams",
+   "price": "From ₱2,371.24",
+   "blurb": "A combination of the old Chinese leg ham and the tenderized American ham.",
+   "image": "assets/live/products/leg-ham-bone-in.jpg",
+   "url": "https://pampangasbest.store/products/leg-ham-bone-in"
+  },
+  {
+   "slug": "corned-beef-premium",
+   "name": "Carne Norte de Brazil, Corned Beef Premium",
+   "category": "Corned Beef",
+   "price": "₱125.83",
+   "blurb": "Premium corned beef.",
+   "image": "assets/live/products/corned-beef-premium.jpg",
+   "url": "https://pampangasbest.store/products/corned-beef-premium"
+  },
+  {
+   "slug": "corned-beef",
+   "name": "Corned Beef",
+   "category": "Corned Beef",
+   "price": "₱38.89",
+   "blurb": "No corn kernels here. “Corned” refers to the ancient curing method.",
+   "image": "assets/live/products/corned-beef.jpg",
+   "url": "https://pampangasbest.store/products/corned-beef"
+  },
+  {
+   "slug": "meaty-burger",
+   "name": "Meaty Burger",
+   "category": "Burger Patties",
+   "price": "From ₱53.33",
+   "blurb": "Best tasting hamburger patties known to all Filipinos.",
+   "image": "assets/live/products/meaty-burger.jpg",
+   "url": "https://pampangasbest.store/products/meaty-burger"
+  },
+  {
+   "slug": "pork-barbecue",
+   "name": "Pork Barbecue",
+   "category": "BBQ",
+   "price": "₱153.89",
+   "blurb": "A classic Pinoy favorite marinated in our special blend of spices.",
+   "image": "assets/live/products/pork-barbecue.jpg",
+   "url": "https://pampangasbest.store/products/pork-barbecue"
+  },
+  {
+   "slug": "baby-back-ribs",
+   "name": "Baby Back Ribs",
+   "category": "BBQ",
+   "price": "₱196.67",
+   "blurb": "The classic Pinoy pork barbecue on a rack of ribs.",
+   "image": "assets/live/products/baby-back-ribs.jpg",
+   "url": "https://pampangasbest.store/products/baby-back-ribs"
+  },
+  {
+   "slug": "pork-bbq-ribs",
+   "name": "Pork BBQ Ribs",
+   "category": "BBQ",
+   "price": "₱213.33",
+   "blurb": "Tender pork belly in sweet and savory barbecue marinade.",
+   "image": "assets/live/products/pork-bbq-ribs.jpg",
+   "url": "https://pampangasbest.store/products/pork-bbq-ribs"
+  },
+  {
+   "slug": "pork-barbecue-stick",
+   "name": "Pork Barbecue on Stick",
+   "category": "BBQ",
+   "price": "₱164.44",
+   "blurb": "A classic Pinoy favorite on skewers.",
+   "image": "assets/live/products/pork-barbecue-stick.jpg",
+   "url": "https://pampangasbest.store/products/pork-barbecue-stick"
+  },
+  {
+   "slug": "honey-cured-bacon",
+   "name": "Honey Cured Bacon",
+   "category": "Bacon",
+   "price": "₱303.33",
+   "blurb": "Honey cured bacon.",
+   "image": "assets/live/products/honey-cured-bacon.jpg",
+   "url": "https://pampangasbest.store/products/honey-cured-bacon"
+  },
+  {
+   "slug": "brickle-bacon",
+   "name": "Brickle Bacon",
+   "category": "Bacon",
+   "price": "₱136.94",
+   "blurb": "What’s not to love? Bacon is Bacon!",
+   "image": "assets/live/products/brickle-bacon.jpg",
+   "url": "https://pampangasbest.store/products/brickle-bacon"
+  },
+  {
+   "slug": "bacon-strips",
+   "name": "Bacon Strips",
+   "category": "Bacon",
+   "price": "₱114.72",
+   "blurb": "The taste of bacon, on a budget.",
+   "image": "assets/live/products/bacon-strips.jpg",
+   "url": "https://pampangasbest.store/products/bacon-strips"
+  },
+  {
+   "slug": "bacon-cubes",
+   "name": "Bacon Cubes",
+   "category": "Bacon",
+   "price": "₱425.56",
+   "blurb": "Bacon cubes.",
+   "image": "assets/live/products/bacon-cubes.jpg",
+   "url": "https://pampangasbest.store/products/bacon-cubes"
+  },
+  {
+   "slug": "bacon",
+   "name": "Bacon 1kg",
+   "category": "Bacon",
+   "price": "₱547.78",
+   "blurb": "Vacuum-packed bacon, 1kg.",
+   "image": "assets/live/products/bacon.jpg",
+   "url": "https://pampangasbest.store/products/bacon"
+  },
+  {
+   "slug": "pork-sisig",
+   "name": "Pork Sisig",
+   "category": "Sisig",
+   "price": "₱81.67",
+   "blurb": "A traditional dish that Kapampangans are known for.",
+   "image": "assets/live/products/pork-sisig.jpg",
+   "url": "https://pampangasbest.store/products/pork-sisig"
+  },
+  {
+   "slug": "meat-loaf",
+   "name": "Meat Loaf",
+   "category": "Meat Loaf",
+   "price": "₱80.00",
+   "blurb": "Meat Loaf.",
+   "image": "assets/live/products/meat-loaf.jpg",
+   "url": "https://pampangasbest.store/products/meat-loaf"
+  },
+  {
+   "slug": "el-embotido",
+   "name": "El Embotido",
+   "category": "Embotido",
+   "price": "₱70.28",
+   "blurb": "A typical fiesta dish, made with raisins, carrots and bell pepper.",
+   "image": "assets/live/products/el-embotido.jpg",
+   "url": "https://pampangasbest.store/products/el-embotido"
+  },
+  {
+   "slug": "chicken-pops",
+   "name": "Chicken Pops",
+   "category": "Chicken",
+   "price": "₱80.28",
+   "blurb": "Quick and easy to prepare, a perfect partner to quality time with family.",
+   "image": "assets/live/products/chicken-pops.jpg",
+   "url": "https://pampangasbest.store/products/chicken-pops"
+  },
+  {
+   "slug": "chicken-nuggets",
+   "name": "Chicken Nuggets",
+   "category": "Chicken",
+   "price": "₱183.89",
+   "blurb": "Chicken Nuggets.",
+   "image": "assets/live/products/chicken-nuggets.jpg",
+   "url": "https://pampangasbest.store/products/chicken-nuggets"
+  },
+  {
+   "slug": "chicken-fingers",
+   "name": "Chicken Fingers",
+   "category": "Chicken",
+   "price": "₱168.33",
+   "blurb": "Chicken Fingers.",
+   "image": "assets/live/products/chicken-fingers.jpg",
+   "url": "https://pampangasbest.store/products/chicken-fingers"
+  },
+  {
+   "slug": "kokok-tail",
+   "name": "Kokok Tail on Stick",
+   "category": "Chicken",
+   "price": "₱154.44",
+   "blurb": "This iconic Philippine street food made available by Pampanga’s Best.",
+   "image": "assets/live/products/kokok-tail.jpg",
+   "url": "https://pampangasbest.store/products/kokok-tail"
+  },
+  {
+   "slug": "chicken-inasal",
+   "name": "Chicken Inasal",
+   "category": "Chicken",
+   "price": "₱232.50",
+   "blurb": "Quick and easy to prepare.",
+   "image": "assets/live/products/chicken-inasal.jpg",
+   "url": "https://pampangasbest.store/products/chicken-inasal"
+  },
+  {
+   "slug": "lumpiang-shanghai",
+   "name": "Lumpiang Shanghai",
+   "category": "Dimsum & Rolls",
+   "price": "From ₱87.50",
+   "blurb": "A type of Filipino egg roll with ground pork and minced onion.",
+   "image": "assets/live/products/lumpiang-shanghai.jpg",
+   "url": "https://pampangasbest.store/products/lumpiang-shanghai"
+  },
+  {
+   "slug": "siomai",
+   "name": "Siomai",
+   "category": "Dimsum & Rolls",
+   "price": "₱40.56",
+   "blurb": "Steamed or fried, best served with toyo calamansi.",
+   "image": "assets/live/products/siomai.jpg",
+   "url": "https://pampangasbest.store/products/siomai"
+  },
+  {
+   "slug": "lumpiang-shanghai-chicken",
+   "name": "Lumpiang Shanghai, Chicken",
+   "category": "Dimsum & Rolls",
+   "price": "₱150.56",
+   "blurb": "Filipino egg roll, chicken version.",
+   "image": "assets/live/products/lumpiang-shanghai-chicken.jpg",
+   "url": "https://pampangasbest.store/products/lumpiang-shanghai-chicken"
+  },
+  {
+   "slug": "daing-bangus",
+   "name": "Daing na Bangus",
+   "category": "Fish",
+   "price": "From ₱100.25",
+   "blurb": "Daing na Bangus.",
+   "image": "assets/live/products/daing-bangus.jpg",
+   "url": "https://pampangasbest.store/products/daing-bangus"
+  },
+  {
+   "slug": "tinapang-bangus",
+   "name": "Tinapang Bangus (Smoked Milkfish)",
+   "category": "Fish",
+   "price": "From ₱112.75",
+   "blurb": "Smoked milkfish.",
+   "image": "assets/live/products/tinapang-bangus.jpg",
+   "url": "https://pampangasbest.store/products/tinapang-bangus"
+  },
+  {
+   "slug": "french-fries",
+   "name": "French Fries",
+   "category": "Fries",
+   "price": "From ₱57.78",
+   "blurb": "Crispy, tasty and golden fries for your kids.",
+   "image": "assets/live/products/french-fries.jpg",
+   "url": "https://pampangasbest.store/products/french-fries"
+  },
+  {
+   "slug": "pickled-red-chili",
+   "name": "Pickled Red Chili",
+   "category": "Bottled",
+   "price": "₱86.25",
+   "blurb": "Pickled red chili.",
+   "image": "assets/live/products/pickled-red-chili.jpg",
+   "url": "https://pampangasbest.store/products/pickled-red-chili"
+  },
+  {
+   "slug": "garlic-bagoong",
+   "name": "Garlic Bagoong",
+   "category": "Bottled",
+   "price": "₱104.75",
+   "blurb": "Garlic bagoong.",
+   "image": "assets/live/products/garlic-bagoong.jpg",
+   "url": "https://pampangasbest.store/products/garlic-bagoong"
+  },
+  {
+   "slug": "sweet-spicy-bagoong",
+   "name": "Sweet & Spicy Bagoong",
+   "category": "Bottled",
+   "price": "₱98.50",
+   "blurb": "Sweet and spicy bagoong.",
+   "image": "assets/live/products/sweet-spicy-bagoong.jpg",
+   "url": "https://pampangasbest.store/products/sweet-spicy-bagoong"
+  },
+  {
+   "slug": "sweet-bagoong",
+   "name": "Sweet Bagoong",
+   "category": "Bottled",
+   "price": "₱92.50",
+   "blurb": "Sweet bagoong.",
+   "image": "assets/live/products/sweet-bagoong.jpg",
+   "url": "https://pampangasbest.store/products/sweet-bagoong"
+  },
+  {
+   "slug": "burong-hipon",
+   "name": "Burong Hipon",
+   "category": "Bottled",
+   "price": "₱80.00",
+   "blurb": "Burong hipon.",
+   "image": "assets/live/products/burong-hipon.jpg",
+   "url": "https://pampangasbest.store/products/burong-hipon"
+  },
+  {
+   "slug": "chili-garlic-oil",
+   "name": "Chili Garlic Oil",
+   "category": "Bottled",
+   "price": "₱111.00",
+   "blurb": "Chili garlic oil.",
+   "image": "assets/live/products/chili-garlic-oil.jpg",
+   "url": "https://pampangasbest.store/products/chili-garlic-oil"
+  },
+  {
+   "slug": "chili-paste",
+   "name": "Chili Paste",
+   "category": "Bottled",
+   "price": "₱104.75",
+   "blurb": "Chili paste.",
+   "image": "assets/live/products/chili-paste.jpg",
+   "url": "https://pampangasbest.store/products/chili-paste"
+  },
+  {
+   "slug": "pork-giniling",
+   "name": "Pork Giniling",
+   "category": "Canned Goods",
+   "price": "₱46.39",
+   "blurb": "Pork Giniling.",
+   "image": "assets/live/products/pork-giniling.jpg",
+   "url": "https://pampangasbest.store/products/pork-giniling"
+  },
+  {
+   "slug": "meat-loaf-can",
+   "name": "Meat Loaf (Canned)",
+   "category": "Canned Goods",
+   "price": "₱45.28",
+   "blurb": "Canned meat loaf.",
+   "image": "assets/live/products/meat-loaf-can.jpg",
+   "url": "https://pampangasbest.store/products/meat-loaf-can"
+  },
+  {
+   "slug": "pic-a-chizz",
+   "name": "PIC-A CHIZZ",
+   "category": "Dairy Snacks",
+   "price": "₱39.72",
+   "blurb": "PIC-A CHIZZ.",
+   "image": "assets/live/products/pic-a-chizz.jpg",
+   "url": "https://pampangasbest.store/products/pic-a-chizz"
+  }
+ ],
+ "wordpress": {
+  "logoSmall": "https://www.pampangasbest.com/wp-content/uploads/2019/07/new-logo-small.png",
+  "lolaMark": "https://www.pampangasbest.com/wp-content/uploads/2016/05/PBI-LOGO-Head.png",
+  "heroOriginalTocino": "https://www.pampangasbest.com/wp-content/uploads/2016/06/The-Original-Tocino-final-layout.png",
+  "brandBanner": "https://www.pampangasbest.com/wp-content/uploads/2015/10/Pampangas-Best.jpg",
+  "aaaBadge": "https://www.pampangasbest.com/wp-content/uploads/2015/10/AAA-250.png",
+  "categories": {
+   "Christmas Hams": "2016/10/featured-xmas-hams.jpg",
+   "Tocino": "2016/04/featured-tocino-1.jpg",
+   "Longaniza": "2016/04/featured-longaniza.jpg",
+   "Hotdogs": "2016/04/featured-hotdogs-1.jpg",
+   "Burger Patties": "2016/04/featured-patties-1-1.jpg",
+   "Tapa": "2016/04/featured-tapa.jpg",
+   "Hams": "2016/04/featured-hams-1.jpg",
+   "BBQ": "2016/04/featured-bbq.jpg",
+   "Sausages": "2016/04/featured-sausages.jpg",
+   "Bacon": "2016/05/featured-bacon.jpg",
+   "Embotido": "2016/05/featured-embotido.jpg",
+   "Corned Beef": "2016/04/featured-corned-beef1.jpg",
+   "Chicken": "2016/07/featured-chicken-pops.jpg"
+  },
+  "testimonials": {
+   "kelven": "2018/06/kelven.png",
+   "lorylee": "2018/06/lorylee.png",
+   "diane": "2015/10/diane.png",
+   "arlyn": "2015/10/arlyn.png",
+   "katrina": "2018/06/katrina.png"
+  },
+  "promos": {
+   "sweetTasteOfHome": "2017/03/18009491_10202984609293886_553375714_n-320x202.jpg",
+   "bestKaDeal": "2016/08/Best-Ka-Deal-Slide-320x202.png",
+   "backToSchool": "2016/06/back-to-school-promo-fb-post-2-320x202.jpg",
+   "meatyCombo": "2016/06/meaty_combo-320x202.jpg",
+   "bestMom": "2016/05/best-mom-header-320x202.jpg"
+  },
+  "base": "https://www.pampangasbest.com/wp-content/uploads/"
+ }
+}

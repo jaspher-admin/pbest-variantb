@@ -1,0 +1,39 @@
+/* Type: serif display for headlines (warm, heritage), geometric sans for UI/body. */
+:root{
+--font-serif-display:"Source Serif 4","Source Serif Pro",Georgia,"Times New Roman",serif;
+--font-sans:"Figtree","Helvetica Neue",Arial,sans-serif;
+--font-display:var(--font-serif-display);
+--font-body:var(--font-sans);
+/* Sizes */
+--text-xs:11px;
+--text-sm:13px;
+--text-base:15px;
+--text-md:17px;
+--text-lg:20px;
+--text-xl:26px;
+--text-2xl:34px;
+--text-3xl:44px;
+--text-4xl:58px;
+/* Line heights */
+--leading-tight:1.08;
+--leading-snug:1.2;
+--leading-normal:1.55;
+/* Tracking */
+--tracking-eyebrow:.12em;
+--tracking-nav:.06em;
+--tracking-display:-.01em;
+/* Weights */
+--weight-regular:400;
+--weight-medium:500;
+--weight-semibold:600;
+--weight-bold:700;
+/* Roles */
+--type-eyebrow:var(--weight-bold) var(--text-xs)/1.2 var(--font-sans);
+--type-nav:var(--weight-semibold) 12px/1 var(--font-sans);
+--type-body:var(--weight-regular) var(--text-base)/var(--leading-normal) var(--font-sans);
+--type-body-sm:var(--weight-regular) var(--text-sm)/var(--leading-normal) var(--font-sans);
+--type-card-title:var(--weight-bold) var(--text-base)/var(--leading-snug) var(--font-sans);
+--type-h3:var(--weight-semibold) var(--text-xl)/var(--leading-snug) var(--font-serif-display);
+--type-h2:var(--weight-semibold) var(--text-2xl)/var(--leading-snug) var(--font-serif-display);
+--type-display:var(--weight-semibold) var(--text-4xl)/var(--leading-tight) var(--font-serif-display);
+}
